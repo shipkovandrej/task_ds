@@ -28,11 +28,12 @@ get api/orders - получить список всех пользователе
 post api/login - получение токена  
 
 ## Пример работы
-![1](https://github.com/user-attachments/assets/d8f8015c-5c0a-4c06-92d4-0ee7d4f8d4b8)
-<hr>
-
-![2](https://github.com/user-attachments/assets/7ef1024d-86a0-44db-ab73-963863648aa8)
+![1](https://github.com/user-attachments/assets/a8ec3b15-9699-4cbb-9c94-8b2d9ca34534)
 
 <hr>
 
-![3](https://github.com/user-attachments/assets/53a9de41-4780-4279-b978-53ba570822df)
+![2](https://github.com/user-attachments/assets/da4763d8-15dd-44a6-9b4e-fe685c8a7fd5)
+
+<hr>
+
+![3](https://github.com/user-attachments/assets/84c61c18-33ed-44c4-9490-15cfffa97cb1)
