@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Order\ListRequest;
+use App\Http\Resources\Api\Order\OrderResource;
 use App\Models\Order;
 use Illuminate\Http\Request;
 
@@ -23,6 +24,6 @@ class OrderController extends Controller
 
         $orders = $query->paginate($limit ?? 500);
 
-        return response()->json($orders);
+        return OrderResource::collection($orders);
     }
 }

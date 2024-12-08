@@ -11,7 +11,16 @@ class Order extends Model
 
     public $timestamps = false;
 
-    protected $casts = [
-        'datetime' => 'datetime:Y-m-d H:i:s',
-    ];
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'datetime' => 'datetime',
+        ];
+    }
 }
